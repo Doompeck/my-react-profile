@@ -7,12 +7,18 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
-export default function Navbar() {
-    return (
+export default function Navbar({ handlePageChange }) {
+  const [value, setValue] = React.useState('about');
+  
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
+  return (
         <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton
+            {/* <IconButton
               size="large"
               edge="start"
               color="inherit"
@@ -20,11 +26,14 @@ export default function Navbar() {
               sx={{ mr: 2 }}
             >
               <MenuIcon />
-            </IconButton>
+            </IconButton> */}
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              News
+              Towhead Creative // Benjamin Stanfield
             </Typography>
-            <Button color="inherit">Login</Button>
+            <Button color="inherit" onClick={() => handlePageChange("About")}>About</Button>
+            <Button color="inherit" onClick={() => handlePageChange("Resume")}>Resume</Button>
+            <Button color="inherit" onClick={() => handlePageChange("Contact")}>Contact</Button>
+            <Button color="inherit" onClick={() => handlePageChange("Portfolio")}>Portfolio</Button>
           </Toolbar>
         </AppBar>
       </Box>
