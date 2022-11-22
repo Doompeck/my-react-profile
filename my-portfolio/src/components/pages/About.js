@@ -6,7 +6,7 @@ import profileImage from "../../assets/images/profile-image.jpg"
 export default function About() {
     return (
         <div className='about'>
-        <Grid container alignItems="left">
+        <Grid container direction="column" alignItems="center">
         <Avatar src={profileImage} alt="A photo of me" sx={{ width:300, height: 300 }}/>
     <h1>This is me!</h1>
     <p>
