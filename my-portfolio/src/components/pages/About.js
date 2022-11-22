@@ -3,9 +3,15 @@ import { Grid } from '@mui/material';
 import { Avatar } from '@mui/material';
 import profileImage from "../../assets/images/profile-image.jpg"
 
+const styles = {
+    spacer: {
+        marginTop: 30
+    }
+}
+
 export default function About() {
     return (
-        <div className='about'>
+        <div className='about' style={styles.spacer}>
         <Grid container direction="column" alignItems="center">
         <Avatar src={profileImage} alt="A photo of me" sx={{ width:300, height: 300 }}/>
     <h1>This is me!</h1>
