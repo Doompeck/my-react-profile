@@ -16,7 +16,7 @@ This is a basic build out for a portfolio.  I utilized React and MaterialUI to b
 
 [Repo](https://github.com/Doompeck/my-react-profile)
 
-[Live Page](https://github.com/Doompeck/my-react-profile)
+[Live Page](https://doompeck.github.io/my-react-profile/)
   ## Usage
 
 To use the page you simply need to access the live page.  Then you may click any of the buttons in the navbar to traverse the page.
