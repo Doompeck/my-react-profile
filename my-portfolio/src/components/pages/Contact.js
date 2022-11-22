@@ -10,7 +10,7 @@ const styles = {
 
 export default function Contact() {
     return (
-        <div className="Contact" style={styles.spacer}>
+        <div className="contact" style={styles.spacer}>
             <Grid container direction="column" alignItems="center">
         <h3>Want to talk?</h3>
 

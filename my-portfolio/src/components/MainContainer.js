@@ -7,6 +7,12 @@ import Footer from "./Footer";
 import Header from "./Header";
 import { Container } from "@mui/material";
 
+const styles = {
+  spacer: {
+      marginTop: 30
+  }
+}
+
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState("About");
 
@@ -29,7 +35,7 @@ export default function MainContainer() {
     <Container>
       <Header handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      <Footer style={styles.spacer} />
     </Container>
   );
 }
