@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Doompeck/my-react-profile/static/css/main.4b7251cd.css",
+    "main.js": "/Doompeck/my-react-profile/static/js/main.6b86a4b1.js",
+    "static/media/totask.png": "/Doompeck/my-react-profile/static/media/totask.f5455d7ebc3bf697008d.png",
+    "static/media/profile-image.jpg": "/Doompeck/my-react-profile/static/media/profile-image.62036d53047085b69a67.jpg",
+    "static/media/Web-dev-resume-2022.pdf": "/Doompeck/my-react-profile/static/media/Web-dev-resume-2022.2a351a6140db64afad7b.pdf",
+    "index.html": "/Doompeck/my-react-profile/index.html",
+    "main.4b7251cd.css.map": "/Doompeck/my-react-profile/static/css/main.4b7251cd.css.map",
+    "main.6b86a4b1.js.map": "/Doompeck/my-react-profile/static/js/main.6b86a4b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b7251cd.css",
+    "static/js/main.6b86a4b1.js"
+  ]
+}
